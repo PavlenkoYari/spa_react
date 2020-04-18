@@ -1,0 +1,32 @@
+.container{
+  margin-top: 50px;
+  padding-bottom: 20px;
+  .title{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .show-more{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px 25px;
+    background: #dadada;
+    border: 1px solid #dadada;
+    cursor: pointer;
+    &:disabled{
+      cursor: not-allowed;
+    }
+    &:hover{
+      color: black;
+      background: 0 0;
+    }
+  }
+  .loading{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+    text-transform: uppercase;
+  }
+}

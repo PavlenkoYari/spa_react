@@ -1,0 +1,1 @@
+export const ACTION_SET_USER_LIST = "ACTION_SET_USER_LIST";
